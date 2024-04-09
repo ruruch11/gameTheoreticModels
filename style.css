@@ -71,3 +71,9 @@ body {
   font-family: "Cormorant Infant", serif;
   font-style: italic;
 }
+
+.goals_section {
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  padding: 0 20px 0 20px;
+}
