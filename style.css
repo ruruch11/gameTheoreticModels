@@ -6,8 +6,12 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
 }
 
+p {
+  font-size: 25px;
+}
 body {
   min-height: 100vh;
 }
@@ -19,14 +23,27 @@ body {
   background-position: center;
 }
 
-.container {
+.container_big {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #a1bbf1;
+}
+.container_blue {
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: aquamarine;
+  background-color: #a1bbf1;
 }
 
+.container_summary {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #dae3f3;
+}
 .header {
   position: fixed;
   top: 0;
@@ -40,6 +57,12 @@ body {
   z-index: 200;
 }
 
+.logo {
+  font-size: 25px;
+  color: black;
+  text-decoration: none;
+  font-weight: normal;
+}
 .navbar a {
   position: relative;
   font-size: 20px;
@@ -72,8 +95,16 @@ body {
   font-style: italic;
 }
 
-.goals_section {
+.section {
   border-left: 3px solid black;
   border-right: 3px solid black;
   padding: 0 20px 0 20px;
+  width: 80%;
+  font-size: 20px;
+}
+
+.source_link {
+  color: black;
+  font-size: 25px;
+  font-weight: 600;
 }
